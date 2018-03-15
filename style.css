@@ -1,9 +1,10 @@
-a {
-  cursor: pointer;
+*{
+  margin: 0;
+  padding: 0;
+}
 
-  &:hover {
-    color: red;
-  }
+a{
+  cursor: pointer;
 }
 
 .section {
@@ -16,43 +17,57 @@ a {
   color: white;
 }
 
-#section-one {
+#section-one{
   background-color: black;
 }
 
-#section-two {
+#section-two{
   background-color: blue;
 }
 
-#section-three {
+#section-three{
   background-color: red;
 }
 
-#section-four {
+#section-four{
   background-color: yellow;
   color: black;
 }
 
-#section-five {
+#section-five{
   background-color: green;
 }
 
-nav {
-  position: fixed;
+nav{
+  font-family: 'Open Sans', Arial;
+  font-size: 20px;
+  background-color: #0a286e;
+  position:fixed;
   width: 100%;
-  top: 0;
-  left: 0;
-  background-color: white;
+  height:5%;
+  text-align:center;
+  padding-top:20px;
+  opacity: 0.8;
+  z-index: 95;
+}
 
-  ul {
-    width: 768px;
-    margin: 0 auto;
+nav li{
+  display: inline-block;
+  margin-left: 50px;
+}
 
-    a {
-      display: inline-block;
-      width: 19%;
-      text-align: center;
-      padding: 20px 0;
-    }
-  }
+ul{
+  width: 100%;
+}
+
+li a{
+  color:white;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#e85200;
 }
