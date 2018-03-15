@@ -28,7 +28,7 @@ a{
 }
 
 #section-three{
-  background-color: red;
+  background-color: #e6daa8;
 }
 
 #section-four{
@@ -85,7 +85,7 @@ nav a:hover{
   float: left;
   position: absolute;
   top: -200px;
-  left: -220px;
+  left: -270px;
   text-align: center;
 }
 
@@ -112,5 +112,24 @@ nav a:hover{
 
 .leftimg{
   width: 400px;
+  position: absolute;
+  left: 200px;
   float: left;
+}
+
+.righttext{
+  width: 500px;
+  float: left;
+  margin: -100px 0 0 400px;
+  color: #4F4F4F;
+}
+
+.righttext img{
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.righttext p{
+  font-size: 18px;
+  line-height: 32px;
 }
