@@ -33,16 +33,24 @@ a{
 }
 
 #section-four{
-  background-color: yellow;
+  background-color: #daddf0;
   color: black;
 }
 
 #section-five{
-  background-color: green;
+  background-color: #EDEDED;
+}
+
+#section-six{
+  background-color: #e6daa8;
+}
+
+#section-seven{
+  background-color: #EDEDED;
 }
 
 nav{
-  font-size: 18px;
+  font-size: 17px;
   background-color: #4F4F4F;
   position:fixed;
   width: 100%;
@@ -55,7 +63,7 @@ nav{
 
 nav li{
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 ul{
@@ -73,12 +81,11 @@ nav a:hover{
 
 .imageoverlay{
   color: #000;
-  z-index: 99;
   top: 200px;
   position: absolute;
   text-align: center;
   margin-left: 28%;
-  width: 100%;
+  left: 0;
   z-index: 100;
 }
 
