@@ -15,7 +15,7 @@ a{
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  color: white;
+  color: #4F4F4F;
 }
 
 #section-one{
@@ -29,6 +29,7 @@ a{
 
 #section-three{
   background-color: #e6daa8;
+  height: 800px;
 }
 
 #section-four{
@@ -49,7 +50,7 @@ nav{
   text-align:center;
   padding-top:20px;
   opacity: 0.8;
-  z-index: 95;
+  z-index: 600;
 }
 
 nav li{
@@ -117,19 +118,32 @@ nav a:hover{
   float: left;
 }
 
-.righttext{
-  width: 500px;
+.rightimg{
   float: left;
-  margin: -100px 0 0 400px;
+  margin-top: 127px;
+}
+
+.text{
+  width: 500px;
   color: #4F4F4F;
 }
 
-.righttext img{
+.text img{
   width: 400px;
   margin-bottom: 10px;
 }
 
-.righttext p{
+.text p{
   font-size: 18px;
   line-height: 32px;
+}
+
+.right{
+  float: left;
+  margin: -100px 0 0 400px;
+}
+
+.left{
+  float: left;
+  margin: -100px 0 0 0;
 }
