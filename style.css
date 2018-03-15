@@ -1,0 +1,58 @@
+a {
+  cursor: pointer;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+}
+
+#section-one {
+  background-color: black;
+}
+
+#section-two {
+  background-color: blue;
+}
+
+#section-three {
+  background-color: red;
+}
+
+#section-four {
+  background-color: yellow;
+  color: black;
+}
+
+#section-five {
+  background-color: green;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+  ul {
+    width: 768px;
+    margin: 0 auto;
+
+    a {
+      display: inline-block;
+      width: 19%;
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+}
