@@ -107,10 +107,10 @@ nav a:hover{
 
 .imageoverlay{
   color: #000;
-  top: 200px;
+  top: 160px;
   position: absolute;
   text-align: center;
-  margin-left: 28%;
+  margin-left: 26%;
   left: 0;
   z-index: 100;
 }
@@ -212,7 +212,7 @@ nav a:hover{
 
 .foots{
   float: left;
-  margin: -360px 0 0 -200px
+  margin: 60px 0 0 -200px
 }
 
 footer{
