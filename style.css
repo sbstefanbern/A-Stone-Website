@@ -148,8 +148,12 @@ nav a:hover{
 
 .promotion{
   width: 100%;
-  height: 500px;
+  height: 800px;
   float: left;
+}
+
+.promotion source{
+  width: 100%;
 }
 
 .leftimg{
