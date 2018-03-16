@@ -39,6 +39,7 @@
 
 #section-six{
   background-color: #e6daa8;
+  height: 600px;
 }
 
 #section-seven{
@@ -202,6 +203,16 @@ nav a:hover{
   position: absolute;
   margin-top: 160px;
   text-align: center;
+}
+
+#section-four .right{
+  float: left;
+  margin: -360px 0 0 400px;
+}
+
+.foots{
+  float: left;
+  margin: -360px 0 0 -200px
 }
 
 footer{
