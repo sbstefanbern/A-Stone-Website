@@ -146,6 +146,13 @@ nav a:hover{
   float: left;
 }
 
+.promotion{
+  width: 100%;
+  height: 500px;
+  float: left;
+  z-index: 4000;
+}
+
 .leftimg{
   width: 400px;
   position: absolute;
