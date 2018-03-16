@@ -35,6 +35,7 @@
 
 #section-five{
   background-color: #EDEDED;
+  height: 700px;
 }
 
 #section-six{
@@ -44,6 +45,7 @@
 
 #section-seven{
   background-color: #EDEDED;
+  height: 600px;
 }
 
 #section-eight{
@@ -207,8 +209,14 @@ nav a:hover{
 
 #section-four .right{
   float: left;
-  margin: -360px 0 0 400px;
+  margin: -100px 0 0 600px;
 }
+
+#section-five .rightimg{
+  float: left;
+  margin: 20px 0 0 0;
+}
+
 
 .foots{
   float: left;
