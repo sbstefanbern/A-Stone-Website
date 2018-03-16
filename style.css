@@ -212,15 +212,26 @@ nav a:hover{
   margin: -100px 0 0 600px;
 }
 
+#section-four .leftimg{
+  width: 400px;
+  position: absolute;
+  left: 100px;
+  float: left;
+}
+
 #section-five .rightimg{
   float: left;
   margin: 20px 0 0 0;
 }
 
-
-.foots{
+#section-six .leftimg{
   float: left;
-  margin: 60px 0 0 -200px
+  margin: 30px 0 0 -200px;
+}
+
+#section-six .right{
+  float: left;
+  margin: 0 0 0 500px;
 }
 
 footer{
